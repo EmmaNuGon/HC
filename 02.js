@@ -12,8 +12,15 @@ function sumaTodos(array) {
   // Nota: Los numeros estan ordenados de menor a mayor.
 
   // Tu código aca:
-  
+var acumulador = 0;
+for(var i = array[0]; i <= array[1]; i++){
+ acumulador = acumulador + i;
 }
+return acumulador;
+}
+
+  
+
 
 // No modifiques nada debajo de esta linea //
 

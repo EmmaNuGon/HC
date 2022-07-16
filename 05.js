@@ -1,3 +1,4 @@
+
 /* 
   Importante: 
   No modificar ni el nombre ni los argumetos que reciben las funciones, sólo deben escribir
@@ -19,7 +20,15 @@ function index() {
   // numeros.encontraIndex(23) debe devolver -1 ya que ese elemento no existe en ese array.
 
   // Tu código aca:
+  Array.prototype.encontraIndex = function (numero) {
+    for (let i = 0; i < this.length; i++) {
+      if (this[i] === numero) {
+        return i;
+      }
+    }
 
+    return -1;
+  }
 };
 
 // No modifiques nada debajo de esta linea //

@@ -24,7 +24,16 @@ function checkInventario(inventario, item) {
   // checkInventario(inventario, 'tenedor') devuelve => 6
 
   // Tu código aca:
-  
+ 
+  var resultado = 0
+
+  for (let i = 0; i < inventario.length; i++) {
+    if (inventario[i].nombre === item) {
+      resultado = inventario[i].cantidad;
+    }
+  }
+
+  return resultado
 }
 
 // No modifiques nada debajo de esta linea //
