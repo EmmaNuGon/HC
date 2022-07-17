@@ -13,6 +13,7 @@ function numeroSimetrico(num) {
   // numeroSimetrico(11711) devuelve true
 
   // Tu código:
+  
   var minumero = num.toString()
   var arrNumeros = minumero.split("")
   var arrNumerosAlReves = arrNumeros.reverse("")

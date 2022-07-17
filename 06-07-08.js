@@ -20,6 +20,7 @@ function crearClasePersona() {
       // el metodo addFriend recibe un string nombre y un entero edad y debe agregar un objeto:
       // { nombre: nombre, edad: edad} al arreglo de amigos de la persona.
       // no debe retornar nada.
+      
       this.amigos.push( { nombre: nombre, edad: edad})
     }
 

@@ -14,7 +14,9 @@ function cuantosRepetidos(array, elemento) {
   // Nota: Podes usar for loops anidados.
 
   // Tu código aca:
-  let contador = 0;
+  let contador = 0; 
+  
+
 
   for (let i = 0; i < array.length; i++) {
     for (let j = 0; j < array[i].length; j++) {
