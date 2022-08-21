@@ -13,7 +13,7 @@ function sumaTodos(array) {
 
   // Tu código aca:
   
-var acumulador = 0;
+ var acumulador = 0;
 for(var i = array[0]; i <= array[1]; i++){
  acumulador = acumulador + i;
 }

@@ -14,6 +14,7 @@ function numeroSimetrico(num) {
 
   // Tu código:
   
+  
   var minumero = num.toString()
   var arrNumeros = minumero.split("")
   var arrNumerosAlReves = arrNumeros.reverse("")
@@ -22,6 +23,7 @@ function numeroSimetrico(num) {
   if (num === numero){
     return true;
   }else{
+    
     return false;
   }
   

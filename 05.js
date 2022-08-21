@@ -21,15 +21,18 @@ function index() {
 
   // Tu código aca:
   
-  Array.prototype.encontraIndex = function (numero) {
+  Array.prototype.encontraIndex = function (elemento) {
     for (let i = 0; i < this.length; i++) {
-      if (this[i] === numero) {
+      console.log(this)
+      if (this[i] === elemento) {
         return i;
+        
       }
     }
 
-    return -1;
+     return -1 
   }
+  
 };
 
 // No modifiques nada debajo de esta linea //
